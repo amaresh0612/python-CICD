@@ -75,6 +75,7 @@ def sample(the_sample= None, n = 1):
 
 def generate_movie():
     phrase = ' '.join([sample(character), sample(connectors), sample(final_phrase)])
+    print("yes")
     return phrase.title()
 
 
